@@ -1,7 +1,8 @@
 repo_name: ohimors/django
 report_id: 906ee757d5ae27a81caf52de2feb5a5c
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T00:23:49+00:00'
+timestamp: '2024-01-05T08:47:17+00:00'
 requested_by: beachmachine
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ohimors/django
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ohimors/django
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ohimors/django
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -44,7 +48,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: tests/initial_sql_regress/sql/simple.sql
+  detection_source_url: https://github.com/ohimors/django/blob/master/tests/fixtures_model_package/models/sql/book.sql
+  detection_source: tests/fixtures_model_package/models/sql/book.sql
   last_updated_by: Tim Graham
   last_updated_on: 2013-07-16 13:10:04.000000000 Z
 - name: Smarty
@@ -55,6 +60,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/ohimors/django
   detection_source: Repo Metadata
 - name: Memcached
   description: High-performance, distributed memory object caching system
@@ -65,7 +71,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
-  detection_source: tests/requirements/py3.txt
+  detection_source_url: https://github.com/ohimors/django/blob/master/tests/requirements/py2.txt
+  detection_source: tests/requirements/py2.txt
   last_updated_by: Tim Graham
   last_updated_on: 2013-07-01 17:58:04.000000000 Z
 - name: MySQL
@@ -76,6 +83,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/ohimors/django/blob/master/tests/requirements/mysql.txt
   detection_source: tests/requirements/mysql.txt
   last_updated_by: Tim Graham
   last_updated_on: 2013-07-01 17:58:04.000000000 Z
@@ -87,6 +95,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ohimors/django
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -96,6 +105,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ohimors/django/blob/master/tests/requirements/postgres.txt
   detection_source: tests/requirements/postgres.txt
   last_updated_by: Tim Graham
   last_updated_on: 2013-07-01 17:58:04.000000000 Z
@@ -108,6 +118,7 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/ohimors/django/blob/master/tests/requirements/base.txt
   detection_source: tests/requirements/base.txt
   last_updated_by: Tim Graham
   last_updated_on: 2013-07-01 17:58:04.000000000 Z
@@ -120,4 +131,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ohimors/django
   detection_source: Repo Metadata
